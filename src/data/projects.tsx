@@ -1,5 +1,26 @@
 export const projects = 
 [
+  {
+    title: "Mini Cart Shop",
+    description: "A simple e-commerce cart app with product listing and cart management.",
+    liveUrl: "https://minicartshoptimoteo.netlify.app/",
+    learned: 
+   [
+      "Dynamic Shopping Cart: Implemented cart logic with add, update, remove, and quantity handling using React state.",
+      "Stripe Checkout Integration: Created secure checkout flow using Stripe's hosted payment pages and dynamic line_items.",
+      "Netlify Functions: Replaced backend server with a serverless function to securely handle Stripe session creation.",
+      "Environment Variables: Managed Stripe secret key and site URL via .env and Netlify Dashboard for production safety.",
+      "Component Architecture: Separated UI into modular components (ProductList, Cart) with clear prop/state flow.",
+      "Modular CSS: Styled each component using traditional CSS files scoped per feature for better maintainability.",
+      "Frontend-backend connection: Called the function from the frontend using fetch and passed dynamic cart items as JSON.",
+      "Public Asset Management: Used the /public folder to host product images and accessed them directly via root-relative paths.",
+      "Layout with Flexbox: Created a two-column layout with product grid on the left and sticky cart sidebar on the right.",
+      "Live Deployment: Deployed the complete app on Netlify, with auto-built frontend and serverless backend functions."
+    ],
+
+    githubUrl: "https://github.com/CaiporaGames/MiniCartShop",
+    image: "/assets/tasktracker.png"
+  },
    {
     title: "Notes Page",
     description: "Create and manage notes with a simple interface and save to Supabase with authentication.",
