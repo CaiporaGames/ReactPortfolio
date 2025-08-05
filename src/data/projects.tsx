@@ -3,7 +3,7 @@ export const projects =
    {
     title: "Notes Page",
     description: "Create and manage notes with a simple interface and save to Supabase with authentication.",
-    liveUrl: "notespagetimoteo.netlify.app",
+    liveUrl: "https://notesapptimoteo.netlify.app/",
     learned: 
     [
       "Supabase Authentication: Integrated email/password login and signup using supabase.auth.",
@@ -16,13 +16,13 @@ export const projects =
       "Dynamic UI with React: Rendered notes, handled loading states, and updated the UI on create/delete actions.",
       "Custom CSS + Tailwind: Continued styling with a clean balance of Tailwind utility classes and scoped CSS files."
   ],
-    githubUrl: "https://github.com/CaiporaGames/NotesPage",
+    githubUrl: "https://github.com/CaiporaGames/NotesApp",
     image: "/assets/tasktracker.png"
   },
   {
     title: "Simple Blog",
     description: "Create and manage blog posts with a simple interface.",
-    liveUrl: "simpleblogtimoteo.netlify.app",
+    liveUrl: "https://simpleblogtimoteo.netlify.app/",
     learned: 
     [
       "React Router: Implemented page navigation using <Routes>, <Route>, and useNavigate().",
