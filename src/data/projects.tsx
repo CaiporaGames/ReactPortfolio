@@ -1,5 +1,22 @@
 export const projects = 
 [
+   {
+    title: "Mini Restaurant Menu",
+    description: "Using QR codes to display restaurant menus and order food.",
+    liveUrl: "restaurantmenutimoteo.netlify.app",
+    learned: [
+      "QR Code Integration: Linked each table to a specific route by generating custom QR codes that open the app in mobile browsers.",
+      "Dynamic Menu Routing: Used React Router to extract table IDs from URLs (e.g., /table/3) and personalize the menu experience per table.",
+      "Mobile Optimization: Ensured the app runs smoothly on Android browsers when opened via QR code scanning at restaurant tables.",
+      "Component-Based Design: Built reusable components for menu cards, order lists, and layout using functional React with TypeScript.",
+      "State Management with Hooks: Managed shopping cart state (add items, calculate total) using useState and derived state logic.",
+      "Responsive Flex/Grid Layout: Designed a mobile-first layout with Flexbox and CSS Grid to organize the menu and order summary side by side.",
+      "Image Integration: Incorporated dynamic images into menu cards using public CDN links (e.g. Pixabay) and responsive styling.",
+      "Netlify Deployment: Deployed the Vite project to Netlify, with React Router support via a custom /public/_redirects file.",
+    ],
+    githubUrl: "https://github.com/CaiporaGames/RestaurantMenu",
+    image: "/assets/tasktracker.png"
+  },
   {
     title: "Mini Cart Shop",
     description: "A simple e-commerce cart app with product listing and cart management.",
@@ -10,11 +27,8 @@ export const projects =
       "Stripe Checkout Integration: Created secure checkout flow using Stripe's hosted payment pages and dynamic line_items.",
       "Netlify Functions: Replaced backend server with a serverless function to securely handle Stripe session creation.",
       "Environment Variables: Managed Stripe secret key and site URL via .env and Netlify Dashboard for production safety.",
-      "Component Architecture: Separated UI into modular components (ProductList, Cart) with clear prop/state flow.",
-      "Modular CSS: Styled each component using traditional CSS files scoped per feature for better maintainability.",
       "Frontend-backend connection: Called the function from the frontend using fetch and passed dynamic cart items as JSON.",
       "Public Asset Management: Used the /public folder to host product images and accessed them directly via root-relative paths.",
-      "Layout with Flexbox: Created a two-column layout with product grid on the left and sticky cart sidebar on the right.",
       "Live Deployment: Deployed the complete app on Netlify, with auto-built frontend and serverless backend functions."
     ],
 
@@ -28,13 +42,12 @@ export const projects =
     learned: 
     [
       "Supabase Authentication: Integrated email/password login and signup using supabase.auth.",
+      "Token verification: Explored Supabase token-based security headers for future enhancements.",
       "Persisted user sessions: Kept users logged in across reloads using Supabase's session management.",
       "Node.js + Express backend: Created a RESTful API (GET, POST, DELETE) to manage notes.",
       "Routing & Folder Structure (Backend): Followed a professional setup using routes/, controllers/, middlewares/.",
       "Supabase Database & RLS: Designed a notes table with user_id, and secured it with Row Level Security (RLS).",
       "Frontend-backend communication: Sent authenticated API requests using custom headers (x-user-id) and fetch.",
-      "Token verification (optional): Explored Supabase token-based security headers for future enhancements.",
-      "Dynamic UI with React: Rendered notes, handled loading states, and updated the UI on create/delete actions.",
       "Custom CSS + Tailwind: Continued styling with a clean balance of Tailwind utility classes and scoped CSS files."
   ],
     githubUrl: "https://github.com/CaiporaGames/NotesApp",
