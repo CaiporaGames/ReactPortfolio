@@ -3,7 +3,7 @@ export const projects =
    {
     title: "Mini Restaurant Menu",
     description: "Using QR codes to display restaurant menus and order food.",
-    liveUrl: "restaurantmenutimoteo.netlify.app",
+    liveUrl: "https://restaurantmenutimoteo.netlify.app/table/1",
     learned: [
       "QR Code Integration: Linked each table to a specific route by generating custom QR codes that open the app in mobile browsers.",
       "Dynamic Menu Routing: Used React Router to extract table IDs from URLs (e.g., /table/3) and personalize the menu experience per table.",
